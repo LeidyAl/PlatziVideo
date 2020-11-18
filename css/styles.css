@@ -9,18 +9,18 @@
 }
 
 body {
-    background: #AB88FF;
+    background: #8F57FD;
+    font-family: 'Mulish', sans-serif;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
 }
 
 .header {
-    background: #AB88FF;
+    background: #8F57FD;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,4 +64,29 @@ ul:hover {
 
 .menu ul li a:hover {
     text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_primary {
+    color: #fff;
+}
+
+.input {
+    background: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    padding: 8px;
+    color: #fff;
+    margin: 12px 0;
+}
+
+::placeholder {
+    color: #fff;
 }
