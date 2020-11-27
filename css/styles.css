@@ -20,19 +20,18 @@ body {
 }
 
 .header {
-    background: #8F57FD;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px;
 }
 
-.headerGreen {
+.bgPurple {
+    background: #8F57FD;
+}
+
+.bgGreen {
     background: #21C08B;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
 }
 
 .logo {
@@ -222,7 +221,7 @@ ul:hover {
     border-radius: 20px;
     padding: 60px 68px 40px;
     min-height: 700px;
-    width: 300px;
+    /* width: 300px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
