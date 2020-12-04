@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.flexCol, .loginForm, .loginContainer, .carouselItem_Details, .flexColCenter, .notFound, .login, .main, .container {
+.flexCol, .registerContainer, .loginForm, .loginContainer, .carouselItem_Details, .flexColCenter, .notFound, .registerLoginContianer, .login, .main, .container {
   display: flex;
   flex-direction: column;
 }
@@ -18,11 +18,11 @@
   justify-content: space-between;
 }
 
-.flexColCenter, .notFound, .login, .main, .container {
+.flexColCenter, .notFound, .registerLoginContianer, .login, .main, .container {
   justify-content: center;
 }
 
-.alingCenter, .notFound, .footer, .loginSocialMedia div, .login, .main, .header {
+.alingCenter, .notFound, .footer, .registerLoginContianer, .loginSocialMedia div, .login, .main, .header {
   align-items: center;
 }
 
@@ -284,6 +284,22 @@ ul:hover {
   font-weight: bold;
   padding: 12px;
   margin: 12px 0;
+}
+
+.registerContainer {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 60px 60px 40px;
+  width: 25%;
+  justify-content: space-around;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.registerLoginContianer {
+  width: 100%;
 }
 
 .footer {
